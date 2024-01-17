@@ -295,7 +295,7 @@ function animate() {
 }
 
 
-// animate();
+animate();
 
 window.addEventListener("keydown", (event) => {
     if(!player.dead){
@@ -375,28 +375,5 @@ window.addEventListener("keyup", (event) => {
 
 })
 
-function resizeCanvas() {
-    // Set a minimum width of 400px
-    var minWidth = 400;
-  
-    // Get the current window width
-    var windowWidth = window.innerWidth;
-  
-    // Adjust the canvas width while maintaining the content
-    canvas.width = Math.max(minWidth, windowWidth);
-  
-    // Redraw your content
-    redrawContent();
-  
-    // Handle other adjustments as needed
-  }
-  
-
-  function redrawContent() {
-    animate();
-
-  }
-
-  window.addEventListener("resize", resizeCanvas());
 
 
