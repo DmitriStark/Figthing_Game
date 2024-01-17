@@ -13,3 +13,10 @@
         height: 400px;
     }
 }
+
+@media only screen and (max-width: 399px) {
+    #canvas1{
+        width: 200px;
+        height: 200px;
+    }
+}
