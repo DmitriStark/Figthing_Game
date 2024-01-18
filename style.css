@@ -2,21 +2,7 @@
     background: black;
 }
 #canvas1{
-    width: 700px;
-    height: 500px;
+    width: 100vh;
+    height: 100vw;
     background: black;
-}
-
-@media only screen and (max-width: 600px) {
-    #canvas1{
-        width: 400px;
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width: 399px) {
-    #canvas1{
-        width: 350x;
-        height: 350x;
-    }
 }
